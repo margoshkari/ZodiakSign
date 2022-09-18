@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Document</title>
+</head>
+<body>
+    <div style="width: 100%; height: 200px; align-items: center; justify-content: center;  display: flex;">
+       
+            <input id="first" type="text" placeholder="Женщина" minlength="3" required="required">
+            <input id="second" type="text" placeholder="Мужчина" style="margin-left: 3%;" minlength="3" required="required">
+            <div style="margin-left: 3%">
+                <button type="submit" onclick="Show()">Показать</button>
+            </div>
+    </div>
+    <div style="width: 100%; height: 200px; align-items: center; justify-content: center; display: flex;">
+        <h2 id="result" style="display: none"></h2>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,15 @@
+input{
+    height: 30px;
+    width: 150px;
+}
+button{
+    background-color: rgb(154, 247, 177);
+    border-radius: 5px;
+    border-style: none;
+    width: 100px;
+    height: 30px;
+    margin-top: 3%;
+}
+button:hover{
+    background-color: rgb(93, 214, 125);
+}
